@@ -1,22 +1,18 @@
-# 🍔 Top-Down Food Fight 🐒🐘
+# 🕹️ Top-Down Food Throwing Game
 
-## 🎮 The Game
-Hungry animals are stampeding toward you!  
-Your job: **throw food before they run past**.  
-Miss them? Game over. 👀
+## 📖 Overview
+In this Unit, you will program a **top-down game** where the objective is to throw food to hungry animals stampeding toward you — before they can run past you.  
 
-## 🧑‍💻 What You’ll Learn
-- 🤔 `if` / `else` logic  
-- 🎲 Random values  
-- 📦 Arrays & prefabs  
+## 🔑 Concepts Covered
+- ✅ If-then statements  
+- 🎲 Random value generation  
+- 📦 Arrays  
 - 💥 Collision detection  
-- 🪄 Instantiation magic  
+- 🧩 Prefabs  
+- 🪄 Instantiation  
 
-## 🚀 Features
-- 🍎 Launch tasty projectiles  
-- 🏃 Move to dodge & feed  
-- 🐾 Keep the stampede under control  
-
-## 🏆 Goal
-Survive as long as you can by keeping everyone fed.  
-Because a full animal is a happy animal. 🐷✨
+## 🎯 Learning Outcome
+By completing this Unit, you will:
+- Program a basic top-down game loop.  
+- Launch projectiles and maneuver the player.  
+- Use prefabs and collisions to keep the game alive.  
