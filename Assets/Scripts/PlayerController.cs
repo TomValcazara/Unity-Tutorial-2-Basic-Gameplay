@@ -4,9 +4,11 @@ public class PlayerController : MonoBehaviour
 {
 
     public float horizontalInput;
-    public float speed = 10.0f;
-    public float xRange = 10;
-    public GameObject projectilePrefab;
+    private float speed = 30.0f;
+    private float xRange = 16;
+    //public GameObject projectilePrefab;
+    public GameObject[] projectilePrefabList;
+    private int randomFoodIndex;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,7 +32,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Launch a projectile from the player
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            randomFoodIndex = Random.Range(0, 3);
+            Instantiate(projectilePrefabList[randomFoodIndex], transform.position, projectilePrefabList[randomFoodIndex].transform.rotation);
         }
     }
 }
